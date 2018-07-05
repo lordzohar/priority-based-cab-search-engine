@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ola uber finder</string>
+    <string name="places_api_key">AIzaSyDUD_hWcWMj9QXiHrKbnXqaAvYc95e61Js</string>
+
+    <string name="rupee_symbol">₹</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logout">Logout</string>
+    <string name="next">Next</string>
+
+</resources>

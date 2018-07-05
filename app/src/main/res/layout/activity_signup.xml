@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/gradient_background"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="485dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="User Registration"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="521dp"
+            android:layout_height="49dp"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="10dp"
+            android:hint="Username for Account"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="523dp"
+            android:layout_height="41dp"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/signup_pass"
+            android:drawablePadding="10dp"
+            android:hint="Password for account"
+            android:inputType="textPassword"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/login_button"
+            android:text="Signup" />
+
+        <TextView
+            android:id="@+id/textViewSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Already Registered? Signin Here"
+            android:textAlignment="center"
+            android:textColor="#111"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
