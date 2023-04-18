@@ -9,3 +9,5 @@ book online cab from them. This project is built in Android Studio.
 
  Implementation of Optimized Cab Search 
 - https://ijisrt.com/wp-content/uploads/2018/04/Implementation-of-Optimized-Cab-Search-2.pdf
+
+PPT - https://docs.google.com/presentation/d/0B45Oo_F50XCfd2dnelQtRUlmajQ/edit?usp=sharing&ouid=101759610521115814470&resourcekey=0-Jkt_INo5_D4K-2u9sBUylg&rtpof=true&sd=true
